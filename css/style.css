@@ -14,19 +14,19 @@ body {
 .row {
     vertical-align: bottom;
 
-   
+
 }
 
 .port-row {
-    height: 104px;   
+    height: 104px;
 }
 
 .link-div {
-    margin-top: 100px;  
+    margin-top: 100px;
 }
 
 .edu-div{
-    margin-left: 400px; 
+    margin-left: 400px;
 }
 
 .edu-col {
@@ -46,7 +46,7 @@ body {
 .col-md-4 a{
     text-align: center;
     padding: .5em 1em .5em 1em;
-  
+
     }
 
 .col-md-12 {
@@ -61,32 +61,32 @@ body {
 */
 
 .inner.vertical-center {
-  margin-bottom: 0; 
+  margin-bottom: 0;
 }
 
 .vertical-center {
-  min-height: 100%;  
-  min-height: 100vh; 
+  min-height: 100%;
+  min-height: 100vh;
       display: -webkit-box;
   display: -moz-box;
   display: -ms-flexbox;
   display: -webkit-flex;
-  display: flex; 
-  
+  display: flex;
+
   /* Align the bootstrap's container vertically */
     -webkit-box-align : center;
   -webkit-align-items : center;
        -moz-box-align : center;
        -ms-flex-align : center;
           align-items : center;
-  
+
   /* In legacy web browsers such as Firefox 9
      we need to specify the width of the flex container */
   width: 100%;
-  
+
   /* Also 'margin: 0 auto' doesn't have any effect on flex items in such web browsers
      hence the bootstrap's container won't be aligned to the center anymore.
-  
+
      Therefore, we should use the following declarations to get it centered again */
          -webkit-box-pack : center;
             -moz-box-pack : center;
@@ -95,7 +95,7 @@ body {
           justify-content : center;
 }
 
-                     
+
 
 
 
@@ -106,7 +106,7 @@ body {
     text-align:right;
     /* inline-block space fix */
     margin-right:-4px;
-} 
+}
 
 
 .sig-div {
@@ -159,17 +159,17 @@ body {
 
 .glyphicon-envelope {
     padding-right: .2em;
-   
+
 }
 
 .exp-row {
     padding-bottom: 4em;
-   
+
 }
 
 .exp-row-2 {
     padding-top: 1.1em;
-   
+
 }
 
 .exp {
@@ -179,7 +179,7 @@ body {
     font-weight: 800;
     color: #f5cf59;
     padding-right: 0.5em;
-    
+
 }
 
 .exp-2 {
@@ -190,7 +190,7 @@ body {
     color: #f5cf59;
     padding-right: .8em;
     vertical-align: bottom;
-  
+
 }
 
 .experience-h4 {
@@ -208,7 +208,7 @@ body {
     font-size: 1.2em;
     font-weight: 800;
     color: #f5cf59;
-    
+
 }
 
 .port {
@@ -217,21 +217,21 @@ body {
     font-weight: 800;
     color: #f5cf59;
 
-    
+
 }
 
 .port:hover {
     color: #f1ba11;
- 
+
 }
 
 .about-h2 {
     font-family: Gudea;
-    font-size: 2.5em;
+    font-size: 2.0em;
     font-weight: 800;
     line-height: 1.4em;
     color: #f5cf59;
-    
+
 }
 
 
@@ -259,7 +259,7 @@ body {
     line-height: 1.2em;
     color: #f5cf59;
     margin-bottom: 1.5em;
-    
+
 }
 
 .col-xs-6 {
@@ -350,7 +350,7 @@ body {
 .navbar-default .navbar-toggle {
     background-color: #343434;
     border-color: #f5cf59;
-    border-radius: 1px;  
+    border-radius: 1px;
 }
 
 
@@ -369,14 +369,14 @@ color: #f1ba11;  /*Sets the text hover color on navbar*/
 .navbar-default {
     background-color: #343434;
     border-color: #f5cf59;
-   
+
 }
 
  .navbar-default .navbar-collapse {
 /*    background-color: #343434;*/
     border-color: #f5cf59;
 
-     
+
 }
 
   .navbar-default .navbar-nav > li > a {
@@ -387,7 +387,7 @@ color: #f1ba11;  /*Sets the text hover color on navbar*/
 #navbar .navbar-nav {
   display: inline-block;
   float: none;
-    
+
   vertical-align: top;
   font-family: Gudea;
    font-size: 1.3em;
@@ -402,9 +402,9 @@ color: #f1ba11;  /*Sets the text hover color on navbar*/
 
 }
 
-  
-    
-    
+
+
+
 @media only screen and (max-width : 880px) {
      .navbar-default .navbar-nav > li > a {
    color: #f5cf59; /*Change active text color here*/
@@ -413,7 +413,7 @@ color: #f1ba11;  /*Sets the text hover color on navbar*/
 
     .experience-h2 {
         font-size: 2em;
-    
+
 
     }
 
@@ -425,7 +425,7 @@ color: #f1ba11;  /*Sets the text hover color on navbar*/
 }
     .sig-div {
 	width: 95%;
-        
+
 }
     .enter-btn {
     width: 2em;
@@ -445,7 +445,7 @@ color: #f1ba11;  /*Sets the text hover color on navbar*/
     color: #f5cf59;
 }
 
-   
+
 
 .col-xs-9.col-sm-12.col-md-6 .about-p {
     font-family: Gudea;
@@ -454,11 +454,11 @@ color: #f1ba11;  /*Sets the text hover color on navbar*/
     line-height: 1.6em;
     color: #f5cf59;
     margin-bottom: 1.5em;
-    
+
 }
     }
-  
-    
+
+
 @media only screen and (max-width : 680px) {
  .about-h2 {
     font-family: Gudea;
@@ -471,14 +471,14 @@ color: #f1ba11;  /*Sets the text hover color on navbar*/
      .experience-h3 {
         font-size: .9em;
     }
-    
+
     .experience-h4 {
         font-size: .9em;
     }
     .experience-h5 {
         font-size: .9em;
     }
-    
+
 .col-xs-9.col-sm-12.col-md-6 .about-p {
     font-family: Gudea;
     font-size:  1em;
@@ -486,10 +486,10 @@ color: #f1ba11;  /*Sets the text hover color on navbar*/
     line-height: 1.6em;
     color: #f5cf59;
     margin-bottom: 1.5em;
-    
+
 }
 
- 
+
     .sig-h1 {
 	font-size: 3em;
 }
@@ -510,19 +510,19 @@ color: #f1ba11;  /*Sets the text hover color on navbar*/
     color: #f5cf59;
 }
 
-    
+
         .col-xs-12 {
         width: 100%;
     }
 
 
     .col-xs-9.col-sm-12.col-md-6 {
-   
+
     padding: 0 .5em 0 .5em;
-} 
-    
-   
-    
+}
+
+
+
  .about-h2 {
     font-family: Gudea;
     font-size: 1.6em;
@@ -538,10 +538,10 @@ color: #f1ba11;  /*Sets the text hover color on navbar*/
     line-height: 1.4em;
     color: #f5cf59;
     margin-bottom: 1.5em;
-    
+
 }
 }
 @media only screen and (max-width : 430px) {
-     
+
 
     }
