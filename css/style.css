@@ -17,6 +17,11 @@ body {
 
 }
 
+.vid-row {
+  margin-top: 50px;
+
+}
+
 .port-row {
     height: 104px;
 }
@@ -402,7 +407,15 @@ color: #f1ba11;  /*Sets the text hover color on navbar*/
 
 }
 
+@media only screen and (max-width : 990px) {
+  .col-vid {
+    height:80px;
+  }
 
+  .port-row {
+    height: 240px;
+  }
+}
 
 
 @media only screen and (max-width : 880px) {
